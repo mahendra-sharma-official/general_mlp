@@ -6,8 +6,10 @@ General Multilayer Perceptron
 2. Pandas
 
 # Workflow
-create the model
-train
+1.create the model
+2.train
+<br>
+(Try running the main.ipynb as it has overall structure in it)
 
 # Current Features
 1. Has predict function so that once you train it can be used to try some other data, Predict will return the predicted output (dimension of the output is based on the dimension of the last layer)
