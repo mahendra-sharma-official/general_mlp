@@ -1,6 +1,10 @@
 # general_mlp
 General Multilayer Perceptron
 
+# Required Modules
+1. Numpy
+2. Pandas
+
 # Workflow
 create the model
 train
