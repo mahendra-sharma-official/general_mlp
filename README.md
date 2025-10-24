@@ -6,8 +6,8 @@ General Multilayer Perceptron
 2. Pandas
 
 # Workflow
-1.create the model
-2.train
+1. Create the model
+2. Train
 <br>
 (Try running the main.ipynb as it has overall structure in it)
 
