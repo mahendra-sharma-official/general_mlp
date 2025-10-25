@@ -84,11 +84,11 @@ class General_MLP:
             **{f"W{i}": w for i, w in enumerate(self.weights)},
             **{f"B{i}": b for i, b in enumerate(self.biases)},
         )
-        print(f"✅ Model saved to {path}")
+        print(f"Model saved to {path}")
     
     def load_model(self, path):
         data = np.load(path)
         self.layer_sizes = data["layers"].tolist()
         self.weights = [data[f"W{i}"] for i in range(len(self.layer_sizes) - 1)]
         self.biases  = [data[f"B{i}"] for i in range(len(self.layer_sizes) - 1)]
-        print(f"✅ Model loaded from {path} ")
+        print(f"Model loaded from {path} ")
